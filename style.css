@@ -1,0 +1,37 @@
+body{
+    padding-top: 13rem;
+    text-align: center;
+    color: white;
+    background-image: url("2f345de82edeba752a1768fb94d2d2c5.jpg");
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     font-size: 30px
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+button{
+   background-color:white ;
+   color: rgb(207, 24, 24); 
+   font-size: 20px ;
+   font-weight: bold; 
+   border-radius: 1rem;
+   border: none;
+   padding: 10px 17px;
+}
+
+button:hover {
+ background-color: rgb(207, 24, 24);
+ color: white;
+}
+
+#fff{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ff0202;
+}

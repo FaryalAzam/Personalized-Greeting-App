@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Greeting App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>
+        Welcome To The Personalized Greeting App</h1>
+    <button onclick="sum()"> Get Greeting</button>
+   <p id="fff"> </p>
+</body>
+
+<script>
+    function sum() 
+    {
+    let name = prompt("Enter your name");
+    let age = prompt("Enter your age");
+
+    if(age>=18){
+        document.getElementById("fff").innerHTML =` Welcome ${name}! You are eligible to participate`; 
+    }
+    else{
+        document.getElementById("fff").innerHTML = `Sorry ${name}! You are too young to join` ;
+  
+    }
+}
+</script>
+</html>
